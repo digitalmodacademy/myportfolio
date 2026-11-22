@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production Build Artifacts
+dist/
+dist-ssr/
+build/
+
+# Netlify Build & CLI Caches
+.netlify/
+
+# Environment Variables & Secrets (CRITICAL SECURITY)
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+*.env
+!.env.example
+
+# Private Keys & Certificates
+*.pem
+*.key
+*.cert
+*.crt
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System and IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
